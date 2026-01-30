@@ -1,12 +1,12 @@
 @font-face {
     font-family: Outfit;
-    src: url(/assets/fonts/Outfit/static/Outfit-Bold.ttf);
+    src: url(assets/fonts/Outfit/static/Outfit-Bold.ttf);
     font-weight: 700;
 }
 
 @font-face {
     font-family: Young-serif;
-    src: url(/assets/fonts/Young_Serif/YoungSerif-Regular.ttf);
+    src: url(assets/fonts/Young_Serif/YoungSerif-Regular.ttf);
     font-weight: 500;
 }
 
@@ -92,3 +92,10 @@ button {
     align-items: center;
 }
 
+
+@media (max-width: 760px) {
+    .video {
+        width: 250px;
+        height: 200px;
+    }
+}
