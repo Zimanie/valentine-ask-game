@@ -8,7 +8,7 @@ function yesBtn() {
     image.style.display = "none";
     video.style.display = "block";
 
-    video.src = "/assets/videos/yesOutcome.mp4";
+    video.src = "assets/videos/yesOutcome.mp4";
     video.style.width = "500px"
     video.style.height = "500px"
     video.load();
@@ -73,4 +73,5 @@ function changeNoClick() {
 
     const container = document.getElementById("container");
     container.style.justifyContent = "flexstart";
+
 }
